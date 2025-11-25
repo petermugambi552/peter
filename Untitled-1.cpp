@@ -1,12 +1,11 @@
 #include <iostream>
-#include <conio.h>
 using namespace std;
-main()
+
+int main()
 {
-    const int LENGTH = 10;
-    const int WIDTH = 5;
-    int area;
-    area = LENGTH * WIDTH;
-    cout << area;
-    getch();
+    for (int x = 2; x <= 32; x *= 2)
+    {
+        cout << x << ",";
+    }
+    return 0;
 }

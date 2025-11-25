@@ -1,9 +1,13 @@
 #include <iostream>
-#include <conio.h>
 using namespace std;
 int main()
 {
-    int marks[5] = {80, 75, 90, 60, 85};
-    cout << "marks" << endl;
-    getch();
+    int i = 50;
+    while (i >= 30)
+    {
+
+        std::cout << i << std::endl;
+        --i;
+    }
+    return 0;
 }
